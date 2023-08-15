@@ -1,4 +1,4 @@
-# shadcn-ui-lib-starter
+# cargo-ui
 A simple starter kit to build your own shadcn-ui library using components from https://ui.shadcn.com/docs/components
 
 ### Features
