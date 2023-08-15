@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import { resolve } from 'path'
-import { peerDependencies, dependencies } from './package.json'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
+import { dependencies, peerDependencies } from './package.json';
 
 export default defineConfig({
   plugins: [

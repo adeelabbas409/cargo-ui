@@ -1,8 +1,8 @@
-import './App.css'
-import 'shadcn-ui-library-starter/dist/style.css';
-import { Button, Avatar, AvatarFallback, AvatarImage, Alert, AlertDescription, AlertTitle } from 'shadcn-ui-library-starter';
 import { Terminal } from 'lucide-react';
 import { useState } from 'react';
+import { Alert, AlertDescription, AlertTitle, Avatar, AvatarFallback, AvatarImage, Button } from 'shadcn-ui-library-starter';
+import 'shadcn-ui-library-starter/dist/style.css';
+import './App.css';
 
 export default function App() {
   const [mode, setMode] = useState('light');
